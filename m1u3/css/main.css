@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.inicio {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/queen-musicians.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.inicio .texto-portada {
+  margin-top: 310px;
+  text-align: center;
+  padding: 0 30px;
+}
+.inicio .texto-portada h1{
+  font-size: 8vh;
+  font-weight: 100;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  color: #efb810; 
+}
+.inicio .texto-portada h2{
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  color: #c39717;
+}
+/*Estilo del botón del documento index.html*/
+.inicio .texto-portada .button .button1{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.inicio .texto-portada .button .button1:hover{
+  background-color: #ffda95;
+  box-shadow: 
+    0 0 10px #ffda95, 0 0 40px #ffda95,
+    0 0 80px #ffda95;
+  opacity: 75%;
+  transition-delay: 1s;
+}
+.inicio .texto-portada .button .button1 span{
+  position: absolute;
+  display: block;
+}
+#span1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#ffda95);
+}
+.inicio .texto-portada .button .button1:hover #span1{
+  left: 100%;
+  transition: 1s;
+}
+#span2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#ffda95);
+}
+.inicio .texto-portada .button .button1:hover #span2{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+#span3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#ffda95);
+}
+.inicio .texto-portada .button .button1:hover #span3{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.50s;
+}
+#span4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#ffda95);
+}
+.inicio .texto-portada .button .button1:hover #span4{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+/*Estilo del botón del documento index.html*/  
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+nav .logo-de-la-banda {
+  height: 8vh;
+  margin-left: 15px;  
+}
+
+
+/*Estilo en común entre las páginas historia, la banda, música y live aid*/
+.inicio-paginas {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/queen-banner1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.inicio-paginas .texto-portada h1 {
+  margin-top: 155px;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  color: #c39717;
+}
+/*Estilo en común entre las páginas historia, la banda, música y live aid*/
