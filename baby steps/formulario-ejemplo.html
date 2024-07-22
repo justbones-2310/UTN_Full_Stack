@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div>
+        <h2> Bienvenidos! <br> Para formar parte de esta comunidad completa
+            la siguiente info: 
+        </h2>
+
+        <form action="#" enctype="application/x-www-form-urlencoded" method="POST"> <!-- etiqueta para formulario y sus atributos -->
+            <p>
+                <label for="name"> Nombre </label>
+                <input type="text" id="name" name="name"> <!-- id necesario para hacer autofoco-->
+            </p>
+            <p>
+                <label for="surname"> Apellido </label>
+                <input type="text" id="surname" name="surname">
+                <!--<input type="text" name="apellido" placeholder="apellido">-->
+            </p>
+            <label for="sexo"> Sexo </label>
+                <ul>
+                    <li>
+                        <input type="radio" name="sexo" value="mujer">
+                        <label> Mujer </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sexo" value="hombre">
+                        <label> Hombre </label>
+                    </li>
+                </ul>
+            <label> Hobbies (Podes elegir más de uno!) </label>  
+                <ul>
+                    <li>
+                        <input type="checkbox" name="Hobbies[]" value="bailar" id="bailar">
+                        <label for="bailar"> Bailar </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Hobbies[]" value="cantar" id="cantar">
+                        <label for="cantar"> Cantar </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Hobbies[]" value="scrollear" id="scrollear">
+                        <label for="scrollear"> Scrollear </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="Hobbies[]" value="matear" id="matear">
+                        <label for="matear"> Matear </label>
+                    </li>
+                </ul>
+            <p>
+                <label for="cancion favorita"> Canción Favorita </label>
+                <select name="cancion favorita">
+                    <option value=" don't stop me now"> Don't Stop Me Now </option>
+                    <option value=" another one bites the dust"> Another One Bites The Dust </option>
+                    <option value=" bohemian rhapsody"> Bohemian Rhapsody </option>
+                    <option value=" crazy little thing call love"> Crazy Little Thing Called Love </option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios"> Contanos algo de vos, queremos conocerte: </label>
+                <textarea name="comentarios"></textarea>
+            </p>
+
+            <p>
+                <label for="email"> Ingresa tu email</label>
+                <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+                <label for="password"> Ingresa tu contraseña</label>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar"><!-- bóton para enviar la información del formulario-->
+                <input type="submit" value="Borrar">
+            </p>    
+        </form>
+    </div>
+</body>
+</html>

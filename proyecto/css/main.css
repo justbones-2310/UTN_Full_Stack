@@ -1,29 +1,29 @@
-* {
+* {/*reseteo*/
     margin: 0;
     padding: 0;
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+  }/*reseteo*/
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family:   font-family: "Noto Serif Georgian", serif;
 }
 .inicio {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/queen-musicians.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/queen-musicians.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 .inicio .texto-portada {
   margin-top: 310px;
   text-align: center;
-  padding: 0 30px;
+  padding: 30px;
+  box-sizing: border-box;
 }
 .inicio .texto-portada h1{
   font-size: 8vh;
   font-weight: 100;
   letter-spacing: 8px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: #efb810; 
 }
 .inicio .texto-portada h2{
@@ -104,6 +104,8 @@
   transition-delay: 0.75s;
 }
 /*Estilo del botón del documento index.html*/  
+
+
 nav {
   height: 100px;
   width: 100%;
@@ -112,10 +114,58 @@ nav {
   align-items: center;
   
 }
-nav .logo-de-la-banda {
+nav img {
   height: 8vh;
   margin-left: 15px;  
 }
+nav ul{
+  list-style-type: none;
+}
+/*ul li a{
+  color: whitesmoke;
+}*/
+
+/*Body del documento predeterminado*/
+main{
+  background-color: #363636;
+  color: #fff;
+}
+#container{
+  display: flex;
+  align-items: center;
+}
+.titulo-principal{
+  font-size: 30px;
+  font-weight: 200px;
+  letter-spacing: 8px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.titulo-principal span{
+  color: #c39717;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.rock-star{
+
+}
+.rock-star h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.rock-star p{
+  text-align: center;
+  padding: 10px;
+}
+.rock-star img {
+  width: 100%;
+}
+/*Body del documento predeterminado*/
+
 
 
 /*Estilo en común entre las páginas historia, la banda, música y live aid*/

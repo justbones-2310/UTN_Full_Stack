@@ -1,0 +1,121 @@
+/*Ejercicio 1
+#container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}*/
+
+/*Ejercicio 2*/
+#container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;  
+}
+
+
+
+/*Ejercicio 3
+#container{
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}*/
