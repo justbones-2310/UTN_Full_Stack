@@ -1,0 +1,48 @@
+ul{
+    list-style: none;
+    font-size: 0; /*IMPORTANTE: elimina el contenido por defecto*/
+    padding: 0; /*IMPORTANTE*/
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+}
+
+a{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover{ /*pseudoclase*/
+    background-color: red;
+}
+ul ul{
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+ul ul li{
+    width: 100%;
+}
+ul li:hover ul{/*VISIBILIDAD DEL SUBMENU*/
+    display: block;
+}
+ul li:hover ul a:hover{
+    background-color: royalblue;
+}
+
+
+
+
+
+
+
