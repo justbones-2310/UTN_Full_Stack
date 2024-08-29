@@ -172,6 +172,11 @@ body{
   letter-spacing: 4px;
 }
 /*Fin del body del documento predeterminado*/
+@media (min-width: 320px){
+  .inicio{
+    background-image: url(../images/mobile/drummer-roger-taylor-guitarist-brian-748843370.webp)
+  }   
+}  
 @media (min-width: 768px){
   .inicio .texto-portada h1 {
     font-size: 8vh;  
