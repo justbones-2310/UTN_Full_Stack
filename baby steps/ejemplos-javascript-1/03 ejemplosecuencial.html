@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ejemplo estructura secuencial en javascript</title>
+</head>
+
+<body>
+
+  <script>
+    // const valor1 = prompt('Ingrese primer número:', '');
+    const valor1 = parseInt(prompt('Ingrese primer número', ''));
+
+    const valor2 = parseInt(prompt('Ingrese segundo número', ''));
+
+    // const suma = parseInt(valor1) + parseInt(valor2);
+    const suma = (valor1) + (valor2);
+
+    const producto = valor1 * valor2;
+
+    console.log('La suma es ' + suma)//se usa el + para unir el texto más 
+    //la variable
+    console.log(`La suma es ${suma} y el producto es ${producto}`)
+    //interpolación de texto
+    document.write(`La suma es ${suma} y el producto es ${producto}`)
+
+</script>
+  
+</body>
+</html>

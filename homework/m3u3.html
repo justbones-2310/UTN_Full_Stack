@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    </head>
+
+    <body>
+        <script>
+
+        const distancia = parseInt( prompt ('Para determinar el transporte apropiado ingrese una distancia en números', ''));
+        
+        if (distancia <= 1000) {
+            document.write('Se puede trasladar a pie sin inconvenientes');
+        } else if (distancia <= 10000) {
+            document.write('Use bicicleta para llegar al destino');
+        } else if (distancia <= 30000) {
+            document.write('Tome un colectivo para llegar al destino');
+        } else if (distancia <= 100000) {
+            document.write('Alquile un auto para llegar al destino');
+        } else {
+            document.write('Reserve un pasaje de avión para llegar a destino');
+        }
+        
+//Ejericio 1
+
+//Crear el código que dada una distancia determine el medio de transporte 
+
+//apropiado de acuerdo a las siguientes reglas:
+
+//0 a 1000 metros = pie
+
+//1000 a 10000 metros = bicicleta
+
+//10000 a 30000 metros = colectivo
+
+//30000 a 100000 metros = auto
+
+//+100000 = avion
+
+
+
+        
+//Ejericio 2
+
+//Crear el código que reciba como parámetro un array de números y devuelva el mayor.  
+        
+        let array = [8, 2, 7, 1, -11, 0, 36];    
+        
+        function getMayor(arr) {
+            let mayor = arr [0];
+            for (numero of arr) {
+                mayor = mayor > numero ? mayor : numero;
+            }
+            return [mayor];
+        }
+
+        let numeros = getMayor(array);
+        console.log(numeros);
+        document.write(numeros);
+
+        </script>
+         
+    
+
+
+    </body>
+</html>
