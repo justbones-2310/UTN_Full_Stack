@@ -1,0 +1,12 @@
+{{!VDS, 5to paso:}}
+<h1>{{title}}</h1>
+{{#if conocido}}
+    <p>Welcome {{nombre}} <a href="/salir">Salir</a></p>
+{{/if}}
+
+{{#unless conocido}}
+    <p>Who are you?</p>
+    <form action="/ingresar" method="post">
+        <input type="text" name="nombre"><button>Ingresar</button>
+    </form>
+{{/unless}}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="m3u4.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Ejercicio 1: 
+    <div class="container">
+        <div class="cuadrado rojo" onclick="cambiarFondo('red')"></div>
+        <div class="cuadrado verde" onclick="cambiarFondo('green')"></div>
+        <div class="cuadrado azul" onclick="cambiarFondo('blue')"></div>
+    </div>
+
+    <style>
+        .container{
+            display: flex;
+        }
+        .cuadrado {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+
+        }
+
+        .rojo {
+            background: red;
+        }
+
+        .verde {
+            background: green;
+        }
+
+        .azul {
+            background: blue;
+        }
+
+    </style>
+    <script>
+        function cambiarFondo(color){
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+    -->
+
+
+    <!-- Ejercicio 2: Programar un contador de caracteres para un textarea.
+    <textarea name="" id="texto" cols="24" rows="8"></textarea>
+    <div>caracteres (letras más espacios): <span id="contar"></span></div>
+
+    <script>
+        const texto = document.getElementById('texto');
+        const contar = document.getElementById('contar');
+
+        texto.addEventListener('keyup', function(){
+            contar.innerText = texto.value.length;
+            
+        })
+    </script>
+    -->
+
+    <!--Ejercicio 3: Dado el siguiente array de alumnos utilizar los métodos de array 
+    vistos para generar un array con los alumnos aprobados. Se considera aprobado 
+    todo alumno que tenga una nota mayor o igual a 7.-->
+
+    <h1></h1>
+
+    <script>
+        const alumnos = [
+
+            {
+
+                nombre: 'Juan Gomez',
+
+                nota: 7
+
+            }, {
+
+                nombre: 'Pedro Rodriguez',
+
+                nota: 4
+
+            }, {
+
+                nombre: 'Roxana García',
+
+                nota: 8
+
+            }, {
+
+                nombre: 'Luciano Lopez',
+
+                nota: 5
+
+            }, {
+
+                nombre: 'Fernanda Gimenez',
+
+                nota: 6
+
+            }, {
+
+                nombre: 'Florencia Martinez',
+
+                nota: 10
+
+            }, {
+
+                nombre: 'Raul Sanchez',
+
+                nota: 7
+
+            }, {
+
+                nombre: 'Sandra Figueroa',
+
+                nota: 8
+
+            }
+
+        ];
+
+        const aprobados = alumnos.filter(function(alumno) {
+            return alumno.nota >= 7;
+        });
+
+        console.log (aprobados);
+        console.log (`${aprobados.length} aprobados`);
+
+        for(let i=0; i<aprobados.length;i++){
+            document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota ${aprobados[i].nota}</p>`)
+        }
+
+    </script>
+</body>
+
+</html>
