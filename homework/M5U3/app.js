@@ -55,6 +55,10 @@ pool.query('delete from home where id=?', [id]).then(function (resultados) {
   console.log(resultados)
 })*/
 
+pool.query('select apellido from empleados').then(function (resultados) {
+  console.log(resultados)
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
